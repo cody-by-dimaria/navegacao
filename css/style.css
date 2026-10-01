@@ -5,44 +5,109 @@
 }
 
 body{
-    background-image: url(/img/wallhaven-yxw23k.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background: #000000;
+    background: linear-gradient(146deg, rgba(0, 0, 0, 1) 23%, rgba(83, 116, 237, 1) 62%, rgba(1, 31, 140, 1) 99%);
+    color: white;
 }
 
 #container {
-    margin-top: 20px;
     max-width: 1000px;
     margin: 0 auto;
-    text-align: center;
+
 }
 
 nav ul {
-    background-color: #555;
-    height: ;
+    border-radius: 20px;
+    height: 90px;
+    margin-top: -63px;
+    margin-left: 250px;
+
 }
 
 nav ul li{
     display: inline-block;
+    
 }
 
 nav ul li a{
     display: block;
     color: rgb(189, 188, 188);
     font-size: 20px;
-    padding: 15px;
+    padding: 10px;
     text-decoration: none;
-    margin-top: 20px;
-}
-
-nav ul li a:hover{
-    background-color: #555;
-    color: #A2B5CD;
 }
 
 h1{
+    
+    color: #Fff;
+}
+
+.logo{
+    display: flex;
+    margin-left: 100px;
+}
+
+.logo img{
+    width: 80px;
+}
+
+.logo h3{
+    font-size: 30px;
+    margin-top: 25px;
+}
+
+input{
+    position: absolute;
+    margin-left: 1100px;
+    width: 250px;
+    height: 30px;
+    border-radius: 7px;
+    padding-left: 5px;
+    background-color: #0B255A;
+    border: none;
+    color: white;
+    top: 25px;
     text-align: center;
 }
 
+.barras{
+    position: absolute;
+    top: 25px;
+    left: 1600px;
+    width: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+.cart{
+    position: absolute;
+    top: 25px;
+    left: 1530px;
+    width: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+.usuario{
+    position: absolute;
+    top: 25px;
+    left: 1470px;
+    width: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+.inicio{
+    border-radius: 20px;
+    height: 300px;
+    margin: 0 auto;
+    background-color: #0B255A;
+    display: block;
+    justify-self: center;
+}
+
+.inicio img{
+    height: 450px;
+    margin-top: -65px;
+}
 
