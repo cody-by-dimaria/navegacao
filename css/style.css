@@ -9,6 +9,7 @@ body{
     background: linear-gradient(146deg, rgba(0, 0, 0, 1) 23%, rgba(83, 116, 237, 1) 62%, rgba(1, 31, 140, 1) 99%);
     color: white;
     margin-bottom: 100px;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 #container {
@@ -85,7 +86,6 @@ input{
     top: 25px;
     left: 1530px;
     width: 30px;
-    color: white;
     cursor: pointer;
 }
 
@@ -115,17 +115,21 @@ input{
 
 .consoles{
     display: flex;
-    margin: 0 auto;
     max-width: 1800px;
     height: 900px;
+    justify-content: center;
+    margin: 0 auto;
 }
 
 .botao{
-    width: 80%;
+    width: 20%;
     background-color: #07182B;
-    height: 400px;
+    height: 380px;
     margin-right: 50px;
     border-radius: 10px;
+    display: block;
+    justify-self: center;
+    text-align: center;
 }
 
 h4{
@@ -134,8 +138,40 @@ h4{
 }
 
 .botao img{
-    width: 100%;
+    width: 99%;
+    border: 2px solid #DAA520;
+    border-radius: 10px;
 }
 
+.botao button{
+    width: 50%;
+    text-align: center;
+    height: 10%;
+    margin-top: 30px;
+    border-radius: 20px;
+    color: white;
+    background-color: #123a8a;
+    border: none;
+}
+
+.botao p{
+    padding-top: 10px;
+    text-align: start;
+    margin-left: 10px;
+}
+
+.tipo{
+    color:gray;
+    font-size: 15px;
+}
+
+#botao2 img{
+    border: none;
+}
+
+#botao3 img{
+    width: 100%;
+    border: none;
+}
 
 
