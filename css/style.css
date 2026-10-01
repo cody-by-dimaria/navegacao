@@ -8,6 +8,7 @@ body{
     background: #000000;
     background: linear-gradient(146deg, rgba(0, 0, 0, 1) 23%, rgba(83, 116, 237, 1) 62%, rgba(1, 31, 140, 1) 99%);
     color: white;
+    margin-bottom: 100px;
 }
 
 #container {
@@ -104,10 +105,37 @@ input{
     background-color: #0B255A;
     display: block;
     justify-self: center;
+    margin-bottom: 30px;
 }
 
 .inicio img{
     height: 450px;
     margin-top: -65px;
 }
+
+.consoles{
+    display: flex;
+    margin: 0 auto;
+    max-width: 1800px;
+    height: 900px;
+}
+
+.botao{
+    width: 80%;
+    background-color: #07182B;
+    height: 400px;
+    margin-right: 50px;
+    border-radius: 10px;
+}
+
+h4{
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+
+.botao img{
+    width: 100%;
+}
+
+
 
