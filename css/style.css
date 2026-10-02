@@ -8,8 +8,8 @@ body{
     background: #000000;
     background: linear-gradient(146deg, rgba(0, 0, 0, 1) 23%, rgba(83, 116, 237, 1) 62%, rgba(1, 31, 140, 1) 99%);
     color: white;
-    margin-bottom: 100px;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 40px;
 }
 
 #container {
@@ -115,10 +115,13 @@ input{
 
 .consoles{
     display: flex;
-    max-width: 1800px;
-    height: 900px;
+    max-width: 1400px;
+    height: 450px;
     justify-content: center;
     margin: 0 auto;
+    background-color: #02060D;
+    align-items: center;
+    border-radius: 20px;
 }
 
 .botao{
@@ -128,17 +131,19 @@ input{
     margin-right: 50px;
     border-radius: 10px;
     display: block;
-    justify-self: center;
     text-align: center;
+    border: 2px solid #123A5A;
 }
 
 h4{
-    margin-left: 50px;
+    margin-left: 120px;
     margin-bottom: 30px;
+    color: gray;
+    font-size: 20px;
 }
 
 .botao img{
-    width: 99%;
+    width: 100%;
     border: 2px solid #DAA520;
     border-radius: 10px;
 }
@@ -147,7 +152,7 @@ h4{
     width: 50%;
     text-align: center;
     height: 10%;
-    margin-top: 30px;
+    margin-top: 20px;
     border-radius: 20px;
     color: white;
     background-color: #123a8a;
@@ -174,4 +179,66 @@ h4{
     border: none;
 }
 
+#botao4 img{
+    width: 100%;
+    border: none;
+}
 
+#botao4{
+    margin-right: 0px;
+}
+
+.pss{
+    color: #007BFF;
+    margin-left: 100px;
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.desc{
+    font-weight: 700;
+    margin-left: 100px;
+    font-size: 40px;
+}
+
+.box{
+    margin: 0 auto;
+    max-width: 1000px;
+    margin-top: 50px;
+    height: 150px;
+    display: flex   ;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.box div{
+    width: 25%;
+    height: 70px;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 20px;
+    background-color: #07182B;
+    border: none;
+}
+
+.controles{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.info{
+    color: gray;
+    font-size: 15px;
+    font: 400;
+}
+
+.titule{
+    font: 400;
+    font-size: 20px;
+}
+
+.pai{
+    display: flex;
+}
